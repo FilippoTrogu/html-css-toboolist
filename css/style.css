@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.logo-text{
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    vertical-align: middle;
+}
+
+.logo{
+    display: inline-block;
+    padding-left: 15px;
+    padding-top: 15px;
+    vertical-align: middle;
+}
+
+main{
+    background-color: rgba(221, 211, 211, 0.923);
+}
+
+.container{
+    background-color: white;
+    max-width: 700px;
+    margin: 0 auto;
+    height: 450px;
+}
+
+.button{
+    border-radius: 3px;
+    margin top 10px;
+    margin-bottom: 3px;
+}
+
+.button.a{
+    background-color: aqua;
+    color: white;
+}
+
+.input{
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.input.one{
+    background-color: blue;
+}
+
+.input.two{
+    background-color: blue;
+}
+
+.input.three{
+    background-color: rgb(179, 0, 255);
+}
+
+.input.four{
+    background-color: rgba(0, 255, 68, 0.49);
+}
+
+.input.five{
+    background-color: rgb(255, 123, 0);
+}
+
+
+
+.input.seven{
+    background-color: rgb(255, 0, 234);
+}
+
+.input.eight{
+    background-color: rgb(246, 255, 0);
+}
+
+.input.nine{
+    background-color: blue;
+}
+
+.new-task{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.today{
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.upcoming{
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+.list-item{
+    font-weight: 200;
+    padding-top: 7px;
+}
