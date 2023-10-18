@@ -7,42 +7,55 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+
     <header>
-        <div class="logo"><img src="./img/Logo.png" alt="logo"></div>
-        <div class="logo-text">Toboolist</div>
+        <img src="./img/Logo.png" alt="toboolean" class="logo">
+        <span class="logo-text">Toboolist</span>
+
+
     </header>
 
     <main>
-        <div class="container">
-            
-                <button class="button a"> Add task</button>
-                <button class="button b"> Add section</button>
-                <hr>
-                
-                <!-- lista -->
-                <div class="lista">
-                    <ul>
-                        <ul class="new-task"> <b>&#10507;New task</b>
-                            <li class="list-item"> Quarterly Newsletter <span class="input one">Editorial</span></li>
+        <div class="container margin-top-20">
+            <div class="top">
+                <button class="button blue-button">Add Task</button>
+                <button class="button border-button">Add Section</button>
+            </div>
+            <div class="bottom">
+                <ul>
+                    <li><h3> <span class="caret-down">&#9660</span> New Task</h3>
+                        <ul>
+                            <li>
+                                <span class="circle done">&check;</span>Quarterly Newsletter <span class="label blue-label">Editorial</span>
+                            </li>
                         </ul>
 
-                        <ul class="today"> <b>&#10507;Today</b>
-                            <li class="list-item">Recruiting blog post <span class="input two">Editorial</span></li>
-                            <li class="list-item">Mobile app luanch <span class="input three">Q1 Goals</span></li>
-                            <li class="list-item">Interview John H. <span class="input four">Recruiting</span></li>
-                            <li class="list-item">Submit update to mobile storefronts <span class="input five">Mobile</span></li>
+                    </li>
+
+                    <li><h3><span class="caret-down">&#9660</span>Today</h3>
+                        <ul>
+                            <li><span class="circle done">&check;</span> Lorem Ipsum bla bla <span class="label blue-label">Editorial</span></li>
+                            <li><span class="circle done">&check;</span> Lorem Ipsum bla bla <span class="label purple-label">Editorial</span></li>
+                            <li><span class="circle failed">&cross;</span> Lorem Ipsum bla bla <span class="label green-label">Editorial</span></li>
+                            <li><span class="circle done">&check;</span> Lorem Ipsum bla bla <span class="label orange-label">Editorial</span></li>
                         </ul>
 
-                        <ul class="upcoming"> <b>&#10507;Upcoming</b>
-                            <li class="list-item">Schedule meeting with alex <span class="input six"></span></li>
-                            <li class="list-item">Homepage refresh <span class="input seven">Websites</span></li>
-                            <li class="list-item">Onboard new Sales team members <span class="input eight">Sales</span></li>
-                            <li class="list-item">Review editorial calendar <span class="input nine">Editorial</span></li>
-                        </ul>
-                    </ul>
-                </div>
+                    </li>
 
+                    <li><h3><span class="caret-down">&#9660</span>Upcoming</h3>
+                        <ul>
+                            <li><span class="circle failed">&cross;</span>Lorem Ipsum bla bla </li>
+                            <li><span class="circle done">&check;</span>Lorem Ipsum bla bla <span class="label pink-label">Editorial</span></li>
+                            <li><span class="circle done">&check;</span>Lorem Ipsum bla bla <span class="label pistacchio-label">Editorial</span></li>
+                            <li><span class="circle done">&check;</span>Lorem Ipsum bla bla <span class="label blue-label">Editorial</span></li>
+                        </ul>
+
+                    </li>
+                </ul>
+            </div>
         </div>
+        
     </main>
+
 </body>
 </html>
